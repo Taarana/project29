@@ -67,7 +67,7 @@ function setup() {
 
   polygon=Bodies.circle (50,200,20);
   World.add(world,polygon);
-  imageMode(CENTRE);
+  imageMode(CENTER);
   image(polygon_img,polygon.position.x,polygon.position.y,40,40);
   slingShot=new Slingshot(this.polygon,{x:100,y:200});
 
